@@ -27,5 +27,8 @@
 # bool()
 # str()
 
-sum = 10 * 20
-print(sum)
+first = input("First number: ")
+second = input("Second number: ")
+
+caculate = int(first) * int(second)
+print(caculate)
